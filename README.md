@@ -5,7 +5,7 @@ CS:GO server in docker with 128 tick enabled by default.
 ### Docker hub image
 
 ```shell
-docker pull gonzih/csgo-server
+docker pull W1ZARDS/csgo-server
 ```
 
 ### Details:
@@ -14,7 +14,7 @@ You can create new Dockerfile based on that image (FROM csgo) and customize it w
 
 ```shell
 # Build image and tag it as csgo
-docker build -t csgo github.com/Gonzih/docker-csgo-server
+docker build -t csgo github.com/W1ZARDS/docker-csgo-server
 
 # Run image with default options (CMD in Dockerfile)
 docker run -d -p 27015:27015 -p 27015:27015/udp csgo
